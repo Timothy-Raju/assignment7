@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment7b</title>
+    <style>
+        body{
+            position: relative;
+            background-image: url('https://images.unsplash.com/photo-1664265694638-e858db3fd16b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+        }
+        .outer{
+            width: 250px;
+            height: 200px;
+            background-color: rgba(0,0,0,0.6);
+            padding: 30px;
+            position: relative;
+            /* display: flex;
+            flex-direction: column; */
+            border-radius: 4px;
+        }
+        .image{
+            height: 80px;
+            border-radius: 50px;
+            position: absolute;
+            top: -10%;
+            left: 50%;;
+            margin-left: -40px;
+        }
+        #input1{
+            border-style: solid;
+            border-color: white;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-width: 1.5px;
+            background-color:rgba(0,0,0,0) ;
+            width: 240px;
+        }
+        #input1::placeholder{
+            color: rgb(236, 229, 229,0.3);
+            font-size: 12px;
+        }
+        #input2{
+            margin-top: 15px;
+            border-style: solid;
+            border-color: white;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-width: 1.5px;
+            background-color:rgba(0,0,0,0) ;
+            width: 240px;
+        }
+        #input2::placeholder{
+            color: rgb(236, 229, 229,0.3);
+            font-size: 12px;
+        }
+
+        .para1{
+            color: white;
+            font-size: 12px;
+            display: inline-block;
+            margin-top: 0;
+        }
+
+        #input3{
+            margin-top: 20px ;
+            margin-right: 0;
+        }
+
+        .button1{
+            background-color: rgb(5, 191, 30);
+            width: 240px;
+            height: 30px;
+            border: none;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: white;
+            border-top: 0;
+            border-left: 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <img src="login-man-icon3.jpeg" alt="image not found" class="image" >
+        <h5 style="text-align: center;color: white;padding-top: 5px;">LOGIN WINDOW</h5>
+        <input type="text" placeholder="Your Email Address" id="input1">
+        <input type="text" placeholder="Your Email Address" id="input2">
+        <input type="checkbox" id="input3">
+        <p class="para1">Agree with <u>Terms & conditions</u></p>
+        <br>
+        <button class="button1">
+            Login
+        </button>
+    </div>
+</body>
+</html>
